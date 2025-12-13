@@ -7,36 +7,25 @@
 <remote  name="gl"
          fetch="https://gitlab.com/" />
 
-<!-- Removed Projects -->
-<remove-project path="hardware/google/pixel" />
-<remove-project path="hardware/google/pixel-sepolicy" />
-<remove-project path="hardware/google/camera" />
+
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="LunarisOS-16.0" />
+<project name="LineageOS/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="lineage-23.0" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="gh" revision="lineage-23.0" />
-<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="gh" revision="lineage-23.0" />
-<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="16.0" />
+<project name="LineageOS/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="lineage-23.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="lineage-23.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="lineage-23.0" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="lineage-23.0" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.0" />
-<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="gh" revision="lineage-23.0" />
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.0" />
 
 <!-- Prebuilt Kernel -->
 <!-- project name="Trijal08/android_device_google_caimito-kernels_6.1" path="device/google/caimito-kernels/6.1" remote="gh" revision="16" clone-depth="1" / -->
-<project name="crdroidandroid/android_device_google_caimito-kernels_lineage" path="device/google/caimito-kernels/lineage" remote="gl" revision="16.0" clone-depth="1" />
+<project name="LineageOS/android_device_google_caimito-kernels" path="device/google/caimito-kernels" remote="gl" revision="lineage-23.0" />
 
 <!-- Extra trees -->
 <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gl" revision="16.0" />
 <project name="crdroidandroid/proprietary_vendor_google_camera" path="vendor/google/camera" remote="gl" revision="16.0" />
-<project name="Evolution-X-Devices/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="gh" revision="bka" />
-<!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
-<!-- project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" / -->
 
 </manifest>
